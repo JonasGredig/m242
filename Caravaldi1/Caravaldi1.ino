@@ -38,6 +38,8 @@ void setup() {
         delay(1000);
 }
 
+
+// A better way to show text on the display of the shield
 void displayText(char message[], int speed) {
        
        char displayActualSize[5] = "    ";

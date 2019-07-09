@@ -3,10 +3,8 @@
 #include <MultiFuncShield.h>
 
 void setup() {
-  // put your setup code here, to run once:
   Timer1.initialize();
   MFS.initialize(&Timer1);
- 
 }
 
 
@@ -56,6 +54,7 @@ void loop() {
   
 }
 
+// A better way to show text on the display of the shield
 void displayText(char message[], int speed) {
        
        char displayActualSize[5] = "    ";
